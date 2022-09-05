@@ -1,15 +1,19 @@
+import { Link } from 'react-router-dom'
+
 function Footer() {
     return (
         <div className="container">
-            <footer className="py-3 my-4">
-                <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-                    {/* <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li> */}
+            <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div className="col-md-4 d-flex align-items-center">
+                    <span className="text-black">  <i className='bx bxs-camera-movie'></i>
+                        &copy; 2022 MyAl Qur'an, By Citra </span>
+                </div>
+
+                <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li className="ms-3"><Link className="text-black" to="#"><i className='bx bxl-github'></i></Link></li>
+                    <li className="ms-3"><Link className="text-black" to="#"><i className='bx bx-envelope'></i></Link></li>
+                    <li className="ms-3"><Link className="text-black" to="#"><i className='bx bxl-instagram'></i></Link></li>
                 </ul>
-                <p className="text-center text-muted">&copy; 2021 MovieBox Design by Adriana Eka Prayudha  </p>
             </footer>
         </div>
 
