@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 function Navigation() {
     return (
-        <Navbar collapseOnSelect expand="lg" variant="dark" className='navbars fixed-top active'>
+        <Navbar collapseOnSelect expand="lg" className='navbars fixed-top shadow-sm bg-white'>
             <Container>
                 <Navbar.Brand className='brand  navbar-logo'>  <img src="https://i.ibb.co/9VdKmRt/tv.png" width={35} alt="movie" /><b> MovieBox</b></Navbar.Brand>
                 <Navbar.Toggle className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
@@ -15,22 +15,27 @@ function Navigation() {
                         <ul className="navbar-nav w-100 justify-content-end">
                             <li className="nav-item active">
                                 <div className="nav-link text-black">
-                                    Home
+                                    <a href="#home">Home</a>
                                 </div>
                             </li>
                             <li className="nav-item active">
                                 <div className="nav-link text-black">
-                                    Movie
+                                    <a href="#featureMovie">Movie</a>
                                 </div>
                             </li>
                             <li className="nav-item active">
                                 <div className="nav-link text-black">
-                                    TV Shows
+                                    <a href="#arrival">Arrival</a>
                                 </div>
                             </li>
                             <li className="nav-item active">
                                 <div className="nav-link text-black">
-                                    Web Series
+                                    <a href="#videos">Videos</a>
+                                </div>
+                            </li>
+                            <li className="nav-item active">
+                                <div className="nav-link text-black">
+                                    <a href="#cast">Cast</a>
                                 </div>
                             </li>
                         </ul>
