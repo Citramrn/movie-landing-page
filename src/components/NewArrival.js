@@ -8,7 +8,7 @@ import ImgSix from '../assets/images/interstaller.jpg'
 function Movie() {
     return (
         <section>
-            <div className="text-movies container mt-5">
+            <div className="text-movies container mt-5" id='arrival'>
                 <h4><b>New Arrival</b></h4>
             </div>
             <div className="container movies-grid mt-3">

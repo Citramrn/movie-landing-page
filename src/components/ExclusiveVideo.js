@@ -5,7 +5,7 @@ import ImgFour from '../assets/thriller.jpg'
 
 function Movie() {
     return (
-        <section>
+        <section id='videos'>
             <div className="text-video container mt-5">
                 <h4><b>Featured Videos</b></h4>
             </div>

@@ -7,7 +7,7 @@ import ImgSix from '../assets/images/venom.jpg'
 
 function Movie() {
     return (
-        <section>
+        <section id='featureMovie'>
             <div className="text-movies container mt-5">
                 <h4><b>Featured Movie</b></h4>
             </div>

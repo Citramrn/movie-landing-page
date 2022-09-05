@@ -6,7 +6,7 @@ import ImgFive from '../assets/cast/cast5.png'
 
 function Movie() {
     return (
-        <section>
+        <section id='cast'>
             <div className="text-cast container mt-5">
                 <h4><b>Featured Casts</b></h4>
             </div>
