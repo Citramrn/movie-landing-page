@@ -6,7 +6,7 @@ function Footer() {
             <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div className="col-md-4 d-flex align-items-center">
                     <span className="text-black">  <i className='bx bxs-camera-movie'></i>
-                        &copy; 2022 MyAl Qur'an, By Citra </span>
+                        &copy; <b>2022 MyAl Qur'an, By Citra</b> </span>
                 </div>
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
