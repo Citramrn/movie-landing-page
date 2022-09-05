@@ -6,7 +6,7 @@ import imgg from '../assets/baymax.jpg'
 
 function Jumbotron() {
     return (
-        <Carousel fade className='image-carousel'>
+        <Carousel fade className='image-carousel' id='home'>
             <Carousel.Item>
                 <img
                     src={img}
@@ -28,7 +28,7 @@ function Jumbotron() {
                                 </div>
                             </div>
                             <p>Space Ranger legendaris Buzz Lightyear memulai petualangan intergalaksi bersama sekelompok rekrutan ambisius dan pendamping robotnya Sox.</p>
-                            <button type="button" className="btn btn-dangers"><img src={Icon} alt="icon" />
+                            <button type="submit" className="btn btn-dangers"><img src={Icon} alt="icon" />
                                 <span className="text-white">  Watch Trailer</span></button>
                         </div>
                     </div>
@@ -90,28 +90,6 @@ function Jumbotron() {
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
-        // <section className="banner" id="home">
-        // <div className="container">
-        //     <div className="row">
-        //         <div className="col-sm-6 p-4 text_jumbotron">
-        //             <h2>John Wick 3 :  Parabellum</h2>
-        //             <div className="buttons mb-3">
-        //                 <div className='imdb'>
-        //                     <img src="https://i.ibb.co/DVs77kh/imdb.png" alt="imdb" />
-        //                     <span>      86.0 / 100</span>
-        //                 </div>
-        //                 <div className="rating">
-        //                     <img src="https://i.ibb.co/s521t6s/fruit.png" alt="rating" />
-        //                     <span>             87%</span>
-        //                 </div>
-        //             </div>
-        //             <p>John Wick is on the run after killing a member of the international assassins' guild, and with  a $14 million price tag on his head, he is the  target of hit men and women everywhere.</p>
-        //             <button type="button" className="btn btn-dangers"><img src={Icon} alt="icon" />
-        //                 <span className="text-white">  Watch Trailer</span></button>
-        //         </div>
-        //     </div>
-        // </div>
-        // </section>
     )
 }
 
