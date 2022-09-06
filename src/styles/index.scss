@@ -85,6 +85,7 @@
     grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
     gap: 30px;
     margin-bottom: 30px;
+    cursor: pointer;
     .action {
         margin-top: -12px;
         p {
@@ -125,7 +126,7 @@
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     gap: 30px;
     margin-bottom: 30px;
-
+    cursor: pointer;
     .name {
         .name-people {
             font-weight: 700;
@@ -139,15 +140,28 @@
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 30px;
     margin-bottom: 30px;
+    .card-img {
+        cursor: pointer;
+    }
+    .center {
+        margin-top: -64%;
+        margin-left: 40%;
+        cursor: pointer;
+        &:hover {
+            opacity: 10;
+        }
+    }
 }
 
 .footer {
     b {
         font-weight: bolder;
         font-size: 15px;
+        color: #363636;
     }
 
     .bx {
+        color: #363636;
         font-size: 25px;
     }
 }
