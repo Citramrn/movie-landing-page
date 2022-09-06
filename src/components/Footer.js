@@ -10,9 +10,9 @@ function Footer() {
                 </div>
 
                 <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-                    <li className="ms-3"><Link className="text-black" to="#"><i className='bx bxl-github'></i></Link></li>
-                    <li className="ms-3"><Link className="text-black" to="#"><i className='bx bx-envelope'></i></Link></li>
-                    <li className="ms-3"><Link className="text-black" to="#"><i className='bx bxl-instagram'></i></Link></li>
+                    <li className="ms-3"><Link className="text-gray" to="#"><i className='bx bxl-github'></i></Link></li>
+                    <li className="ms-3"><Link className="text-gray" to="#"><i className='bx bx-envelope'></i></Link></li>
+                    <li className="ms-3"><Link className="text-gray" to="#"><i className='bx bxl-instagram'></i></Link></li>
                 </ul>
             </footer>
         </div>
