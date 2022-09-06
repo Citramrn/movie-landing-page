@@ -13,7 +13,7 @@ function Movie() {
             <div className="container cast-grid mt-3">
                 <div className="cast-card-cast">
                     <div className="card-head-cast">
-                        <img src={ImgOne} alt="captai-marvel" className='card-img' />
+                        <img src={ImgOne} alt="captai-marvel" className='card-img rounded' />
                         <div className="name">
                             <p className='name-people'> Claire Luvicat</p>
                         </div>
@@ -21,7 +21,7 @@ function Movie() {
                 </div>
                 <div className="cast-card-cast">
                     <div className="card-head-cast">
-                        <img src={ImgTwo} alt="captai-marvel" className='card-img' />
+                        <img src={ImgTwo} alt="captai-marvel" className='card-img rounded' />
                         <div className="name">
                             <p className='name-people'> Brian Brich G</p>
                         </div>
@@ -29,7 +29,7 @@ function Movie() {
                 </div>
                 <div className="cast-card-cast">
                     <div className="card-head-cast">
-                        <img src={ImgThree} alt="captai-marvel" className='card-img' />
+                        <img src={ImgThree} alt="captai-marvel" className='card-img rounded' />
                         <div className="name">
                             <p className='name-people'> Chloë Grace Moretz</p>
                         </div>
@@ -37,7 +37,7 @@ function Movie() {
                 </div>
                 <div className="cast-card-cast">
                     <div className="card-head-cast">
-                        <img src={ImgFour} alt="captai-marvel" className='card-img' />
+                        <img src={ImgFour} alt="captai-marvel" className='card-img rounded' />
                         <div className="name">
                             <p className='name-people'> Ryan Reynolds</p>
                         </div>
@@ -45,7 +45,7 @@ function Movie() {
                 </div>
                 <div className="cast-card-cast">
                     <div className="card-head-cast">
-                        <img src={ImgFive} alt="captai-marvel" className='card-img' />
+                        <img src={ImgFive} alt="captai-marvel" className='card-img rounded' />
                         <div className="name">
                             <p className='name-people'> Keanu Reeves</p>
                         </div>

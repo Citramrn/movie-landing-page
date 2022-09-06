@@ -14,7 +14,7 @@ function Movie() {
             <div className="container movies-grid mt-3">
                 <div className="movie-card">
                     <div className="card-head">
-                        <img src={ImgOne} alt="captai-marvel" className='card-img' />
+                        <img src={ImgOne} alt="captai-marvel" className='card-img rounded' />
                         <div className="people-movie">
                             <p className='year mt-2'> USA, 2019  </p>
                             <p className='name-hero'>Avengers : Endgame</p>
@@ -35,7 +35,7 @@ function Movie() {
                 </div>
                 <div className="movie-card">
                     <div className="card-head">
-                        <img src={ImgTwo} alt="captai-marvel" className='card-img' />
+                        <img src={ImgTwo} alt="captai-marvel" className='card-img rounded' />
                         <div className="people-movie">
                             <p className='year mt-2'> USA, 2017  </p>
                             <p className='name-hero'>Spider-man</p>
@@ -55,7 +55,7 @@ function Movie() {
                 </div>
                 <div className="movie-card">
                     <div className="card-head">
-                        <img src={ImgThree} alt="captai-marvel" className='card-img' />
+                        <img src={ImgThree} alt="captai-marvel" className='card-img rounded' />
                         <div className="people-movie">
                             <p className='year mt-2'> USA, 2021  </p>
                             <p className='name-hero'>
@@ -77,7 +77,7 @@ function Movie() {
                 </div>
                 <div className="movie-card">
                     <div className="card-head">
-                        <img src={ImgFour} alt="captai-marvel" className='card-img' />
+                        <img src={ImgFour} alt="captai-marvel" className='card-img rounded' />
                         <div className="people-movie">
                             <p className='year mt-2'> USA, 2018  </p>
                             <p className='name-hero'>Black Panther </p>
@@ -97,7 +97,7 @@ function Movie() {
                     </div>
                 </div>    <div className="movie-card">
                     <div className="card-head">
-                        <img src={ImgFive} alt="captai-marvel" className='card-img' />
+                        <img src={ImgFive} alt="captai-marvel" className='card-img rounded' />
                         <div className="people-movie">
                             <p className='year mt-2'> USA, 2020  </p>
                             <p className='name-hero'>Wonder Woman 1984</p>
@@ -117,7 +117,7 @@ function Movie() {
                     </div>
                 </div>    <div className="movie-card">
                     <div className="card-head">
-                        <img src={ImgSix} alt="captai-marvel" className='card-img' />
+                        <img src={ImgSix} alt="captai-marvel" className='card-img rounded' />
                         <div className="people-movie">
                             <p className='year mt-2'> USA, 2014  </p>
                             <p className='name-hero'>Interstellar</p>

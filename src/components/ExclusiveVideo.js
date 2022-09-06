@@ -12,22 +12,22 @@ function Movie() {
             <div className="container cast-grid-video mt-3">
                 <div className="cast-card-video">
                     <div className="card-head-video">
-                        <img src={ImgOne} alt="captai-marvel" className='card-img' />
+                        <img src={ImgOne} alt="captai-marvel" className='card-img rounded' />
                     </div>
                 </div>
                 <div className="cast-card-video">
                     <div className="card-head-video">
-                        <img src={ImgTwo} alt="captai-marvel" className='card-img' />
+                        <img src={ImgTwo} alt="captai-marvel" className='card-img rounded' />
                     </div>
                 </div>
                 <div className="cast-card-video">
                     <div className="card-head-video">
-                        <img src={ImgThree} alt="captai-marvel" className='card-img' />
+                        <img src={ImgThree} alt="captai-marvel" className='card-img rounded' />
                     </div>
                 </div>
                 <div className="cast-card-video">
                     <div className="card-head-video">
-                        <img src={ImgFour} alt="captai-marvel" className='card-img' />
+                        <img src={ImgFour} alt="captai-marvel" className='card-img rounded' />
                     </div>
                 </div>
             </div>
