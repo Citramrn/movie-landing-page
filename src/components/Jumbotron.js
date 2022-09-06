@@ -28,8 +28,8 @@ function Jumbotron() {
                                 </div>
                             </div>
                             <p>Space Ranger legendaris Buzz Lightyear memulai petualangan intergalaksi bersama sekelompok rekrutan ambisius dan pendamping robotnya Sox.</p>
-                            <button type="submit" className="btn btn-dangers"><img src={Icon} alt="icon" />
-                                <span className="text-white">  Watch Trailer</span></button>
+                            <a href="https://www.youtube.com/watch?v=BwZs3H_UN3k" target='blank'> <button type="submit" className="btn btn-dangers"><img src={Icon} alt="icon" />
+                                <span className="text-white">  Watch Trailer</span></button></a>
                         </div>
                     </div>
                 </Carousel.Caption>
@@ -56,8 +56,9 @@ function Jumbotron() {
                                 </div>
                             </div>
                             <p>Following the events of “Guardians of the Galaxy Vol. 1,” Baby Groot is finally ready to try taking his first steps out of his pot—only to learn you have to walk before you can run.</p>
-                            <button type="button" className="btn btn-dangers"><img src={Icon} alt="icon" />
-                                <span className="text-white">  Watch Trailer</span></button>
+                            <a href="https://www.youtube.com/watch?v=D7eFpRf4tac" target='blank'>      <button type="button" className="btn btn-dangers"><img src={Icon} alt="icon" />
+                                <span className="text-white">  Watch Trailer</span></button></a>
+
                         </div>
                     </div>
                 </Carousel.Caption>
@@ -83,8 +84,10 @@ function Jumbotron() {
                                 </div>
                             </div>
                             <p>Return to the fantastical city of San Fransokyo where the affable, inflatable, inimitable healthcare companion robot, Baymax, sets out to do what he was programmed to do: help others.</p>
-                            <button type="button" className="btn btn-dangers"><img src={Icon} alt="icon" />
-                                <span className="text-white">  Watch Trailer</span></button>
+                            <a href="https://www.youtube.com/watch?v=7xidOWnzSu4" target='blank'>
+                                <button type="button" className="btn btn-dangers"><img src={Icon} alt="icon" />
+                                    <span className="text-white">  Watch Trailer</span></button>
+                            </a>
                         </div>
                     </div>
                 </Carousel.Caption>
